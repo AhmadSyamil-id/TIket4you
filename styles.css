@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #6a1b9a; /* Ungu */
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.event-card {
+    background-color: #e1bee7; /* Ungu Muda */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+button {
+    background-color: #1976d2; /* Biru */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1565c0; /* Biru Tua */
+}
+
+footer {
+    background-color: #6a1b9a; /* Ungu */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
